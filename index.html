@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Color Building Form</title>
+		<link href="color.css" rel="stylesheet">
+	</head>
+	<body>
+		<form action="#" method="post">
+  			<textarea id="color" row="13" col="45"></textarea><br>
+  			<div>
+  				<label for="">Red: <output id="redOutput">120</output></label>
+  				<input type="range" class="range" id="redInput" value="120" min="0" max="255" step="5" oninput="redOutput.value = redInput.value"><br>
+  
+  				<label for="">Green: <output id="greenOutput">160</output></label>
+  				<input type="range" class="range" id="greenInput" value="160" min="0" max="255" step="5" oninput="greenOutput.value = greenInput.value"><br>
+  
+  				<label for="">Blue: <output id="blueOutput">47</output></label>
+  				<input type="range" class="range" id="blueInput" value="47" min="0" max="255" step="5" oninput="blueOutput.value = blueInput.value"><br>
+  
+  				<label for="">Alpha: <output id="alphaOutput">0.62</output></label>
+  				<input type="range" class="range" id="alphaInput" value="0.62" min="0" max="1" step="0.01" oninput="alphaOutput.value = alphaInput.value"><br>
+  			</div>
+		</form>
+	</body>
+</html>
