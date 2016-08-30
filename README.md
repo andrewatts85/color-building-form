@@ -1,4 +1,4 @@
 # Color Building Form
 Example color building form.
 
-[Demo]()
+[Demo](https://andrewatts85.github.io/color-building-form/)
