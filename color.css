@@ -1,0 +1,103 @@
+body {
+  background: #D5649C;
+}
+
+form {
+  border: 0.063em solid black;
+  width: 23em;
+  max-width: 30%;
+  margin: 5% auto;
+  padding-top: .7%;
+  text-align: center;
+  border-radius: .5em;
+  font-family: sans-serif;
+  background: #252935;
+  font-weight: bold;
+  overflow: auto;
+}
+
+textarea {
+  height: 10em;
+  width: 95%;
+  resize: none;
+  -webkit-box-sizing: border-box;
+  border-radius: .5em;  
+}
+
+.range {
+  width: 75%;
+  float: right;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.range:focus {
+  outline: none;
+}
+
+.range::-ms-track {
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+
+.range::-webkit-slider-runnable-track {
+  background-color: #50555C;
+  height: 1.25em;
+  border-radius: 1em;
+}
+
+.range::-moz-range-track {
+  background-color: #50555C;
+  height: 1.1em;
+  border-radius: 1em;
+}
+
+.range::-webkit-slider-thumb {
+  background-color: #529DE1;
+  height: 1em;
+  width: 2em;
+  border-radius: .5em;
+  margin-top: .7%;
+}
+
+#redInput::-webkit-slider-thumb {
+  background-color: red;
+}
+
+#greenInput::-webkit-slider-thumb {
+  background-color: lightgreen;
+}
+
+#blueInput::-webkit-slider-thumb {
+  background-color: blue;
+}
+
+#alphaInput::-webkit-slider-thumb {
+  background-color: white;
+}
+
+label, output {
+  display: inline-block;
+  text-align: left;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 0.125em;
+  color: gray;
+  font-size: .9em;
+}
+
+output {
+  color: white;
+}
+
+div {
+  width: 95%;
+  text-align: left;
+  margin: auto;
+}
